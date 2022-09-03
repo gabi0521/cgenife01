@@ -1,10 +1,8 @@
 title {display: none;
 }
 h2 {
-    background-image: url("me.jpg");
-} 
- background-image: url(me.jpg); 
-}
+ background-image: url("me.jpg");
+
 p {text-align: center;
   font-size:20px;
   font-family: Lucida handwriting, Brush Script MT;
