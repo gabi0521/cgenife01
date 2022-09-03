@@ -5,9 +5,11 @@ h2 {
 }
 
 img2 {
-  max-width: 100%;
-  height: auto;
+  width: 200;
+ height: 300;
+ align: center;
 }
+
 
 p {text-align: center;
   font-size:20px;
