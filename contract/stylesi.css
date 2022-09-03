@@ -1,4 +1,5 @@
-<style>
+title {display: none;
+}
 h1 {text-align: center;
    font-family: Lucida handwriting, Brush Script MT;
    color: white;
@@ -17,4 +18,4 @@ footer {text-align: center;}
 body {
   background-image: url("water-34.webp");
 }
-</style>
+
