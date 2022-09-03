@@ -1,5 +1,8 @@
 title {display: none;
 }
+img {max-width: 100%;
+      height: auto;
+}
  background-image: url(me.jpg); 
 }
 p {text-align: center;
