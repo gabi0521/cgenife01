@@ -9,8 +9,8 @@ h2 {text-align: center;
    color: white;
 
 }
-border1{
-  border: 5px outset red;
+.border1{
+  border: 5px outset blue;
   background-color: lightblue;    
   text-align: center;
 }
