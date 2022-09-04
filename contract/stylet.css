@@ -12,7 +12,7 @@ h2 {
    color: white;
 
 }
-border1{
+.border1{
   border: 5px outset blue;
   background-color: darkblue;    
   text-align: center;
