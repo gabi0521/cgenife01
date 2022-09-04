@@ -14,7 +14,7 @@ h2 {
 }
 .border1{
   border: 5px outset blue;
-  background-color: darkblue;    
+  background-color: gray;    
   text-align: center;
    opacity: 0.5;
 }
