@@ -16,6 +16,9 @@ h2 {
   border: 5px outset blue;
   background-color: gray;    
   text-align: center;
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
    opacity: 0.5;
 }
 ul {
