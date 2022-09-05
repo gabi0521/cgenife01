@@ -4,10 +4,10 @@ title {
 .border1{
   border: 5px outset blue;
   background-color: gray;    
-  text-align: middle;
+  text-align: center;
   width: 400px;
   height: 500px;
-  opacity: 0.3;
+  opacity: 0.2;
 }
 ul {
   text-align: center;
