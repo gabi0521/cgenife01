@@ -4,7 +4,7 @@ title {
 .border1{
   border: 5px outset blue;
   background-color: gray;    
-  text-align: center;
+  text-align: middle;
   width: 400px;
   height: 500px;
   opacity: 0.3;
