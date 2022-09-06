@@ -11,11 +11,10 @@ h2 {text-align: center;
     text-shadow: 2px 2px 4px #000000;
 
 }
-p {text-align: center;
-  font-size:20px;
+p {font-size:20px;
   font-family: "Lucida handwriting", "Brush Script MT";
   color: beige;
-    text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #000000;
 }
 footer {text-align: center;}
 body {
