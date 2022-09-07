@@ -16,6 +16,8 @@ div {
   border: 15px solid darkblue;
   padding: 50px;
   margin: 20px;
+  text-align: center;
+  
 }
 p {font-size:20px;
   font-family: "Lucida handwriting", "Brush Script MT";
