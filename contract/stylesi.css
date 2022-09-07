@@ -16,7 +16,7 @@ div {
   border: 15px solid darkblue;
   padding: 50px;
   margin: 20px;
-  text-align: center;
+  text-align: middle;
   text-shadow: 2px 2px 4px #000000;
   opacity: 0.5;
   top: 50%; 
@@ -27,6 +27,7 @@ div {
 p {font-size:25px;
   font-family: "Lucida handwriting", "Brush Script MT";
   color: darkblue;
+   text-align: left;
   
 }
 footer {text-align: center;}
