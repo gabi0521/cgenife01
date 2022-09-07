@@ -12,8 +12,8 @@ h2 {text-align: center;
 }
 div {
   background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
+  width: 600px;
+  border: 15px solid darkblue;
   padding: 50px;
   margin: 20px;
 }
