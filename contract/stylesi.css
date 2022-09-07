@@ -17,6 +17,7 @@ div {
   padding: 50px;
   margin: 20px;
   text-align: center;
+  text-shadow: 2px 2px 4px #000000;
   
 }
 p {font-size:20px;
