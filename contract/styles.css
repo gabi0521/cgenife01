@@ -76,12 +76,14 @@ p.introduction {
     font-family:" Lucida handwriting", "Brush Script MT";
     color: white;
  }
-button-temp{
+ button-temp{
   background-color: #199319;
   color: white;
   font-size: 30px
 }
- 
+ footer.p{
+   text-align: center;
+} 
 
 
  /* it for brand  */
