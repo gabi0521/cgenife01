@@ -84,7 +84,9 @@ p.introduction {
   font-size: 30px
 }
 
-
+footer p{
+   text-align: center;
+}
 
  /* it for brand  */
 
