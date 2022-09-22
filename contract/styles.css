@@ -51,10 +51,13 @@ img {
 }
 
 p.introduction {
-   text-align: left;
-  font-size:20px;
+  text-align: left;
+  font-size:15px;
   font-family:"Lucida handwriting", "Brush Script MT";
   color: black;
+}
+p.footer-intro{
+  text-align: center;
 }
 
 
@@ -86,6 +89,7 @@ p.introduction {
 
 footer p {
    text-align: center;
+   margin: bottom;
 }
 
  /* it for brand  */
