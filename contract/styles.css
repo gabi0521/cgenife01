@@ -49,6 +49,12 @@ img {
   width:250px;
   height:200px;
 }
+div.intro{
+  background-color:#EDC9AF; 
+  border: 15px solid beige;
+  padding: 50px;
+  text-align: left;
+}
 
 p.introduction {
   text-align: left;
