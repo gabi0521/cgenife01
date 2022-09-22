@@ -50,7 +50,8 @@ img {
   height:200px;
 }
 
-p.introduction {text-align: center;
+p.introduction {
+   text-align: left;
   font-size:20px;
   font-family:"Lucida handwriting", "Brush Script MT";
   color: black;
@@ -60,18 +61,18 @@ p.introduction {text-align: center;
 /* it is for template */
 
  ul {
-   text-align: center;
+   text-align: left;
    margin: 0;
    padding: 0;
    font-size: 30px;
  }
  h1.temp-header {
-    text-align: center;
+    text-align: left;
     font-family: "Lucida handwriting", "Brush Script MT";
     color: white;
  }
  h2.temp-h2 {
-    text-align: center;
+    text-align: left;
     font-family:" Lucida handwriting", "Brush Script MT";
     color: white;
  }
