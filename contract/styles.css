@@ -10,7 +10,7 @@ h2 {text-align: center;
    color: darkblue;
    text-shadow: 2px 2px 4px #000000;
 }
-div.contract {
+div {
   background-color: yellow;
   width: 800px;
   border: 15px solid beige;
