@@ -2,7 +2,7 @@ title {display: none;
 }
 h1 {text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
-   color: beige;
+   color: darkbrown;
     text-shadow: 2px 2px 4px #000000;
 }
 h2 {text-align: center;
@@ -10,21 +10,9 @@ h2 {text-align: center;
    color: darkblue;
    text-shadow: 2px 2px 4px #000000;
 }
-div {
-  background-color: gold;
-  width: 50%;
-  height: 200px;
-  border: 15px solid beige;
-  padding: 50px;
-  margin: 0px;
-  text-align: middle ;
-  top: 50%; 
-}
-
-
 p {font-size:25px;
   font-family: "Lucida handwriting", "Brush Script MT";
-  color: white;
+  color: darkbrown;
   text-align: left;
 }
 body {
@@ -79,18 +67,18 @@ p.footer-intro{
  h1.temp-header {
     text-align: left;
     font-family: "Lucida handwriting", "Brush Script MT";
-    color: white;
+    color: darkbrown;
  }
  h2.temp-h2 {
     text-align: left;
     font-family:" Lucida handwriting", "Brush Script MT";
-    color: white;
+    color: darkbrown;
  }
     
 
  button-temp{
   background-color: #199319;
-  color: white;
+  color: darkbrown;
   font-size: 20px
 }
 
