@@ -104,7 +104,21 @@ footer p {
    font-size:25px;
    font-family: "Lucida handwriting", "Brush Script MT";
    color: darkbrown;
-  
  }
+
+/* Tabel of Content */
+ h1.toc-header {
+   text-align: center;
+    font-family: "Lucida handwriting", "Brush Script MT";
+    color: darkbrown;
+}
+ h2.toc-h2 {
+    text-align: left;
+    font-family: "Lucida handwriting", "Brush Script MT";
+    color: darkbrown;
+ 
+ }
+
+
 
  
