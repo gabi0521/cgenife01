@@ -34,7 +34,7 @@ body {
 
 footer {
    text-align: center;
-   font-size: 50px;
+   font-size: 20px;
    margin-left: 0;
    margin-right: 0;
 }
@@ -58,7 +58,7 @@ div.intro{
 
 p.introduction {
   text-align: left;
-  font-size:50px;
+  font-size:20px;
   font-family:"Lucida handwriting", "Brush Script MT";
   color: black;
 }
@@ -92,7 +92,7 @@ p.footer-intro{
  button-temp{
   background-color: #199319;
   color: white;
-  font-size: 50px
+  font-size: 20px
 }
 
 footer p {
