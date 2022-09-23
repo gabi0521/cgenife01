@@ -103,17 +103,17 @@ footer p {
 
  h1.brand-header {text-align: center;
     font-family: "Lucida handwriting", "Brush Script MT";
-    color: #EDC9AF;
+    color: brown;
  }
  h2.brand-h2 {text-align: left;
     font-family: "Lucida handwriting", "Brush Script MT";
-    color: #EDC9AF;
+    color: brown;
  
  }
  p.brand-paragraph {text-align: left;
    font-size:20px;
    font-family: "Lucida handwriting", "Brush Script MT";
-   color: #EDC9AF;
+   color: brown;
    text-shadow: 2px 2px 4px #000000;
  }
 
