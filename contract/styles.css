@@ -2,17 +2,17 @@ title {display: none;
 }
 h1 {text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
-   color: Dark brown;
+   color: DarkBrown;
     
 }
 h2 {text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
-   color: Dark brown;
+   color: DarkBrown;
    
 }
 p {font-size:25px;
   font-family: "Lucida handwriting", "Brush Script MT";
-  color: Dark brown;
+  color: DarkBrown;
   text-align: left;
   
 }
@@ -69,24 +69,24 @@ p.footer-intro{
  h1.temp-header {
     text-align: left;
     font-family: "Lucida handwriting", "Brush Script MT";
-    color: Dark brown;
+    color: DarkBrown;
  }
  h2.temp-h2 {
     text-align: left;
     font-family:" Lucida handwriting", "Brush Script MT";
-    color: Dark brown;
+    color: DarkBrown;
  }
     
 
  button-temp{
   background-color: #199319;
-  color: Dark brown;
+  color: DarkBrown;
   font-size: 20px
 }
 
 footer p {
    text-align: center;
-   margin: bottom;
+   margin-bottom: 100px;
 }
 
  /* it for brand  */
@@ -94,30 +94,30 @@ footer p {
  h1.brand-header {
     text-align: center;
     font-family: "Lucida handwriting", "Brush Script MT";
-    color: Dark brown;
+    color: DarkBrown;
  }
  h2.brand-h2 {
     text-align: left;
     font-family: "Lucida handwriting", "Brush Script MT";
-    color: dark brown;
+    color: DarkBrown;
  
  }
  p.brand-paragraph {text-align: left;
    font-size:25px;
    font-family: "Lucida handwriting", "Brush Script MT";
-   color: Dark brown;
+   color: DarkBrown;
  }
 
 /* Tabel of Content */
  .h1-toc {
     text-align: center;
     font-family: "Lucida handwriting", "Brush Script MT";
-    color: Dark brown;
+    color: DarkBown;
 }
  .h2-toc {
     text-align: left;
     font-family: "Lucida handwriting", "Brush Script MT";
-    color: Dark brown;
+    color: DarkBown;
  
  }
 .nav-toc {
