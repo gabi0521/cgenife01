@@ -59,7 +59,7 @@ p.footer-intro{
 
 /* it is for template */
 
- ul {
+ ul.temp {
    text-align: left;
    margin: 0;
    font-size: 20px;
