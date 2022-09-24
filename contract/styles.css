@@ -91,11 +91,13 @@ footer p {
 
  /* it for brand  */
 
- h1.brand-header {text-align: center;
+ h1.brand-header {
+    text-align: center;
     font-family: "Lucida handwriting", "Brush Script MT";
     color: darkbrown;
  }
- h2.brand-h2 {text-align: left;
+ h2.brand-h2 {
+    text-align: left;
     font-family: "Lucida handwriting", "Brush Script MT";
     color: darkbrown;
  
@@ -108,7 +110,7 @@ footer p {
 
 /* Tabel of Content */
  h1.toc-header {
-   text-align: center;
+    text-align: center;
     font-family: "Lucida handwriting", "Brush Script MT";
     color: darkbrown;
 }
@@ -118,6 +120,11 @@ footer p {
     color: darkbrown;
  
  }
+nav.toc-nav{
+   text-align: center;
+   font-family: "Lucida handwriting", "Brush Script MT";
+    
+}
 
 
 
