@@ -109,18 +109,18 @@ footer p {
  }
 
 /* Tabel of Content */
- h1.toc {
+ .h1-toc {
     text-align: center;
     font-family: "Lucida handwriting", "Brush Script MT";
     color: darkbrown;
 }
- h2.toc{
+ .h2-toc {
     text-align: left;
     font-family: "Lucida handwriting", "Brush Script MT";
     color: darkbrown;
  
  }
-nav.toc{
+.nav-toc {
    text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
     
