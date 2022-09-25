@@ -1,16 +1,17 @@
 title {display: none;
 }
-h1 {text-align: center;
+h1 {
+   text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
-   color: #4d2600;
-    
+   color: #4d2600;   
 }
 h2 {text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
    color: #4d2600;
    
 }
-p {font-size:25px;
+p {
+   font-size:25px;
   font-family: "Lucida handwriting", "Brush Script MT";
   color: #4d2600;
   text-align: left;
@@ -38,7 +39,7 @@ img {
   width:250px;
   height:200px;
 }
-div.intro{
+div.intro {
   background-color:#EDC9AF; 
   border: 15px solid beige;
   padding: 50px;
@@ -51,7 +52,7 @@ p.introduction {
   font-family:"Lucida handwriting", "Brush Script MT";
   color: #4d2600;
 }
-p.footer-intro{
+p.footer-intro {
   text-align: center;
    
 }
@@ -80,7 +81,7 @@ p.footer-intro{
 
  button-temp{
   background-color: #199319;
-  color: #4d2600n;
+  color: #4d2600;
   font-size: 20px
 }
 
