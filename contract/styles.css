@@ -119,16 +119,12 @@ footer p {
     text-align: left;
     font-family: "Lucida handwriting", "Brush Script MT";
     color: #4d2600;
- 
- }
-.nav-toc {
+
+.bar-toc {
+   color: white; 
    text-align: left;
    font-family: "Lucida handwriting", "Brush Script MT";
    line-height: 100%;
-}
-.bar-toc {
-   color: white;
-   
 
 }
 
