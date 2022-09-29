@@ -119,15 +119,15 @@ footer p {
  .h1-toc {
     text-align: center;
     font-family: "Lucida handwriting", "Brush Script MT";
-    color: #4d2600;
+    
 }
  .h2-toc {
     text-align: left;
     font-family: "Lucida handwriting", "Brush Script MT";
-    color: #4d2600;
+   
 }
 .div-toc {
-   color: white; 
+  
    text-align: left;
    font-family: "Lucida handwriting", "Brush Script MT";
    line-height: 100%;
