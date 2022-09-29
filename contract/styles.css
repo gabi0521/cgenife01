@@ -158,11 +158,12 @@ footer p {
 .div-toc a:hover {
   background-color: #ddd;
   color: black;
+  opacity: 0.5;
 }
 .div-toc a.active {
   background-color: #04AA6D;
-  color: white;
-  opacity: 0.5;
+  color: rgb (255,255,224);
+
 }
 .div-toc .icon {
   display: none;
