@@ -158,6 +158,7 @@ footer p {
 .div-toc a.active {
   background-color: #04AA6D;
   color: white;
+  opacity: 0.5;
 }
 .div-toc .icon {
   display: none;
