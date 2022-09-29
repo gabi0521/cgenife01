@@ -131,8 +131,13 @@ footer p {
    text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
    line-height: 100%;
+   font-weight: bold;
 
 }
-
+.ul-toc{
+    list-style-type: none;
+    list-style-image: none;
+   font-weight: bold;
+}
 
  
