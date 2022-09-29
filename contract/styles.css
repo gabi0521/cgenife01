@@ -25,6 +25,7 @@ p {
 }
 body {
   background-image: url("giphy.gif");
+   background-size: 100%;
   background-repeat: no-repeat;
 }
 
