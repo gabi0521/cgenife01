@@ -127,11 +127,12 @@ footer p {
    
 }
 .div-toc {
-  
+   background-color: #333;
    text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
    line-height: 100%;
    font-weight: bold;
+   overflow: hidden;
 
 }
 .ul-toc{
@@ -141,4 +142,24 @@ footer p {
    line-height: 100%;
 }
 
+.div-toc a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.div-toc a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.div-toc a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.div-toc .icon {
+  display: none;
+}
  
