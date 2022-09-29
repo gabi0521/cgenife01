@@ -3,11 +3,15 @@ title {display: none;
 h1 {
    text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
-   color: #4d2600;   
+   font-weight: bold;
+   color: rgb(207, 206, 206);
+   text-shadow: 3px 3px rgb(0 105 148 / 70%);  
 }
 h2 {text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
-   color: #4d2600;
+   font-weight: bold;
+   color: rgb(207, 206, 206);
+   text-shadow: 3px 3px rgb(0 105 148 / 70%);
    
 }
 p {
