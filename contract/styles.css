@@ -39,7 +39,7 @@ footer {
    bottom: 0;
    width: 100%;
    background: grey;
-   height: 20px
+   height: 30px
 }
 
 
@@ -91,7 +91,7 @@ p.footer-intro {
  }
     
 
- button-temp{
+ .button-temp {
   border: none;
   color: white;
   padding: 15px 32px;
