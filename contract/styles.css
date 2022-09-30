@@ -189,7 +189,9 @@ li.dropdowntoc {
   text-align: left;
 }
 
-.dropdowntoc-content a:hover {background-color: #f1f1f1;}
+.dropdowntoc-content a:hover {
+   background-color: #f1f1f1;
+}
 
 .dropdowntoc:hover .dropdowntoc-content {
   display: block;
