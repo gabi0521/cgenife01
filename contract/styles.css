@@ -52,7 +52,7 @@ footer {
   padding: 4px;
   margin: auto;
 }
-figure-cap {
+.figure-cap {
   background-color: black;
   color: white;
   font-style: italic;
