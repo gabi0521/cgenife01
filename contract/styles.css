@@ -55,7 +55,7 @@ footer {
   margin-right: 40px;
 }
 .figure-cap {
-  background-color: black;
+  background-color: none;
   color: white;
   font-style: italic;
   padding: 2px;
