@@ -48,10 +48,16 @@ footer {
 /* this is introduction*/
 
 .figure-intro {
-  margin-left: auto;
-  margin-right: auto;
-  width: 10px;
-  height:20px;
+ border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+figure-cap {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
 }
 div.intro {
   background-color:#EDC9AF; 
