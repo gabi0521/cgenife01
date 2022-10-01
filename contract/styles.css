@@ -59,8 +59,8 @@ footer {
   color: white;
   font-style: italic;
   padding: 2px;
-  text-align: center;
-   width: 150px;
+  text-align: left;
+  width: 150px;
 }
 div.intro {
   background-color:#EDC9AF; 
