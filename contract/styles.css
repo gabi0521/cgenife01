@@ -22,9 +22,16 @@ p {
   font-family: "Lucida handwriting", "Brush Script MT";
   text-align: left;
   font-weight: bold;
-  color: rgb(207, 206, 206);
-  text-shadow: 3px 3px rgb(0 105 148 / 70%);
+  color: black;
+  
+}
 
+.modal {
+  width: 60%;
+  height: auto;
+  padding: 10px 10px;
+  margin-left: 20px;
+  background-color: white;
 }
 body {
   background-image: url("deepinwater.gif");
@@ -32,6 +39,7 @@ body {
   background-repeat: no-repeat;
 }
 a {
+  color: black;
    text-decoration: none;
 }
 
