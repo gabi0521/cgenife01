@@ -15,6 +15,7 @@ h2 {
    color: rgb(207, 206, 206);
    text-shadow: 3px 3px rgb(0 105 148 / 70%);
    
+   
 }
 p {
    font-size:25px;
@@ -29,6 +30,9 @@ body {
   background-image: url("deepinwater.gif");
   background-size: cover;
   background-repeat: no-repeat;
+}
+a {
+   text-decoration: none;
 }
 
 footer {
