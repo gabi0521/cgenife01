@@ -27,11 +27,13 @@ p {
 }
 
 .modal {
+  display: flex;
+  flex-wrap: wrap;
   width: 60%;
   height: auto;
   padding: 10px 10px;
   margin-left: 20px;
-  background-color: white;
+  background-color: rgb(26, 158, 210);
 }
 body {
   background-image: url("deepinwater.gif");
@@ -45,13 +47,13 @@ a {
 
 footer {
    text-align: center;
-   line-height:1px;
-   position: fixed;
    padding: 10px 10px 0px 10px;
    bottom: 0;
    width: 100%;
+   margin-left: -20px;
+   margin-right: -20px;
    background: grey;
-   height: 70px;
+   height: auto;
    opacity: 0.9;
    font-size: 25px;
 }
