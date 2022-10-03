@@ -6,23 +6,22 @@ h1 {
    font-family: "Lucida handwriting", "Brush Script MT";
    font-weight: bold;
    color: rgb(207, 206, 206);
-   text-shadow: 3px 3px rgb(0 105 148 / 70%);  
+    
 }
 h2 {
-   text-align: center;
+   text-align: left;
    font-family: "Lucida handwriting", "Brush Script MT";
    font-weight: bold;
-   color: rgb(207, 206, 206);
-   text-shadow: 3px 3px rgb(0 105 148 / 70%);
-   
-   
+   color: rgb(207, 206, 206);  
 }
+
 p {
    font-size:25px;
   font-family: "Lucida handwriting", "Brush Script MT";
   text-align: left;
   font-weight: bold;
   color: black;
+  
   
 }
 
@@ -33,7 +32,8 @@ p {
   height: auto;
   padding: 10px 10px;
   margin-left: 20px;
-  background-color: rgb(26, 158, 210);
+  background-color: rgb(195, 231, 245);
+  opacity: 0.1;
 }
 body {
   background-image: url("deepinwater.gif");
@@ -46,16 +46,15 @@ a {
 }
 
 footer {
-   text-align: center;
    padding: 10px 10px 0px 10px;
    bottom: 0;
    width: 100%;
    margin-left: -20px;
    margin-right: -20px;
-   background: grey;
-   height: auto;
+   background: rgb(107, 107, 107);
    opacity: 0.9;
    font-size: 25px;
+   text-align: center;
 }
 
 
@@ -67,6 +66,7 @@ footer {
   margin-bottom: 1em;
   margin-left: 40px;
   margin-right: 40px;
+  position: relative;
 }
 .figure-cap {
   background-color: none;
@@ -90,10 +90,10 @@ p.introduction {
   font-family:"Lucida handwriting", "Brush Script MT";
   color: #4d2600;
 }
-p.footer-intro {
-  text-align: center;
-  line-height:2px;
-  position: fixed;
+p.footer{
+   text-align: center;
+   height: auto;
+   position: fixed;
 }
 /* it is for template */
 
