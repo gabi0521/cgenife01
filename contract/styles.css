@@ -28,12 +28,15 @@ p {
 .modal {
   display: flex;
   flex-wrap: wrap;
-  width: 60%;
+  width: 100%;
   height: auto;
   padding: 10px 10px;
   margin-left: 20px;
-  background-color: rgb(195, 231, 245);
-  opacity: 0.5;
+  background-color: rgb(119, 129, 133 ,  0.7);
+  border: 1px solid #2a5465;
+  border-radius: 5px;
+  border-spacing: 0px;
+  border-collapse: separate;
 }
 body {
   background-image: url("deepinwater.gif");
@@ -42,7 +45,7 @@ body {
 }
 a {
   color: black;
-   text-decoration: none;
+   text-decoration:underline;
 }
 
 footer {
@@ -51,7 +54,6 @@ footer {
    width: 100%;
    margin-left: -20px;
    margin-right: -20px;
-   background: rgb(107, 107, 107);
    opacity: 0.9;
    font-size: 25px;
    text-align: center;
@@ -67,15 +69,17 @@ footer {
   margin-left: 40px;
   margin-right: 40px;
   position: relative;
+  align-content: right;
 }
 .figure-cap {
   background-color: none;
-  color: white;
+  color: black;
   font-style: italic;
   padding: 2px;
   text-align: left;
-  width: 150px;
+  width: 100px;
   border-radius: 50%;
+  font-weight: bold;
 }
 div.intro {
   background-color:#EDC9AF; 
@@ -93,8 +97,9 @@ p.introduction {
 p.footer{
    text-align: center;
    height: auto;
-   position: fixed;
+   position:fixed;
    bottom: 0;
+   color: white;
 }
 /* it is for template */
 
