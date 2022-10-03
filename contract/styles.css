@@ -33,7 +33,7 @@ p {
   padding: 10px 10px;
   margin-left: 20px;
   background-color: rgb(195, 231, 245);
-  opacity: 0.1;
+  opacity: 0.5;
 }
 body {
   background-image: url("deepinwater.gif");
@@ -94,6 +94,7 @@ p.footer{
    text-align: center;
    height: auto;
    position: fixed;
+   bottom: 0;
 }
 /* it is for template */
 
