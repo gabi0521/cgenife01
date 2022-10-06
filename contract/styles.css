@@ -128,15 +128,11 @@ p.footer{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 6px 2px;
     cursor: pointer;
+    background-color: #152922;
 }
-.button-temp1 {
-   background-color: #04AA6D;
-} 
-.button-temp2 {
-   background-color: #04AA6D;
-} 
+
 
 footer p {
    text-align: center;
@@ -170,8 +166,11 @@ footer p {
 }
  .h2-toc {
     text-align: center;
-    font-family: "Lucida handwriting", "Brush Script MT";
-   
+    font-family: "Lucida handwriting", "Brush Script MT";   
+}
+  p.toc {
+    text-align: center;
+    font-family: "Lucida handwriting", "Brush Script MT"; 
 }
 ul {
   list-style-type: none;
@@ -194,7 +193,7 @@ li a, .mydroptoc {
 }
 
 li a:hover, .dropdowntoc:hover .mydroptoc {
-  background-color: #013220;
+  background-color: #02362332;
 }
 
 li.dropdowntoc {
@@ -205,7 +204,7 @@ li.dropdowntoc {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -224,4 +223,22 @@ li.dropdowntoc {
 
 .dropdowntoc:hover .dropdowntoc-content {
   display: block;
+}
+.button-toc{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  margin: 6px 2px;
+  cursor: pointer;
+  background-color: rgb(119, 129, 133 ,  0.7);;
+}
+section {
+  font: 25px Arial, sans-serif;
+  padding-left: 15%;
+  padding-top: 70px;
+  padding-right: 20%;
 }
