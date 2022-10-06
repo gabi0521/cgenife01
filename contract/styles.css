@@ -234,7 +234,7 @@ li.dropdowntoc {
   font-weight: bold;
   margin: 6px 2px;
   cursor: pointer;
-  background-color: rgb(119, 129, 133 ,  0.7);;
+  background-color: rgb(119, 129, 133 ,  0.7);
 }
 section {
   font: 25px Arial, sans-serif;
@@ -242,3 +242,18 @@ section {
   padding-top: 70px;
   padding-right: 20%;
 }
+/* Bizz buzz */
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: auto;
+  padding: 50px 50px;
+  margin-left: 20px;
+  background-color: rgb(119, 129, 133 ,  0.7);
+  border: 1px outset #2a5465;
+  border-collapse: separate;
+  
+}
+ 
+
