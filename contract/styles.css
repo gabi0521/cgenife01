@@ -243,26 +243,26 @@ section {
   padding-right: 20%;
 }
 /* Bizz buzz */
-.table-bizz {
+.table {
   display: flex;
   flex-wrap: wrap;
-  width: 500px;
+  width: 400px;
   height: auto;
   padding: 50px;
-  padding-top: 0;
-  margin-top: -10px;
+  padding-top: 20px;
+  margin-top: 10px;
   margin: 30px 30px;
-  background-color: #ebf6f232(38, 92, 93, 0.7);
-  border: 20px ridge #ebf6f232(38, 92, 93, 0.7);
   align-content: center;
+  border: 20px ridge #2a5465;
+  background-color: rgb(119, 129, 133 ,  0.7);
   
 }
-.h-buzz{
+.h-buzz {
   text-align: center;
   font-weight: bolder;
   font-size: 30px;
 }
-.s-bizz{
+.s-bizz {
   font: 25px Lucida handwriting ;
   padding-left: 30%;
   padding-top: 0px;
