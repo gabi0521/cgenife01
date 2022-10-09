@@ -21,8 +21,7 @@ p {
   text-align: left;
   font-weight: bold;
   color: black;
-  
-  
+ 
 }
 
 .modal {
@@ -31,9 +30,10 @@ p {
   width: 100%;
   height: auto;
   padding: 10px 10px;
+  padding-top: 0;
   margin-left: 20px;
   background-color: rgb(119, 129, 133 ,  0.7);
-  border: 1px solid #2a5465;
+  border: 10px solid #2a5465;
   border-radius: 5px;
   border-spacing: 0px;
   border-collapse: separate;
@@ -193,7 +193,7 @@ li a, .mydroptoc {
 }
 
 li a:hover, .dropdowntoc:hover .mydroptoc {
-  background-color: #02362332;
+  background-color: #ebf6f232;
 }
 
 li.dropdowntoc {
@@ -239,29 +239,30 @@ li.dropdowntoc {
 section {
   font: 25px Arial, sans-serif;
   padding-left: 15%;
-  padding-top: 70px;
+  padding-top: 30px;
   padding-right: 20%;
 }
 /* Bizz buzz */
-.table {
+.table-bizz {
   display: flex;
   flex-wrap: wrap;
   width: 500px;
   height: auto;
   padding: 50px;
+  padding-top: 0;
   margin-top: -10px;
   margin: 30px 30px;
-  background-color: rgba(38, 92, 93, 0.7);
-  border: 20px ridge rgba(38, 92, 93, 0.7);
+  background-color: #ebf6f232(38, 92, 93, 0.7);
+  border: 20px ridge #ebf6f232(38, 92, 93, 0.7);
   align-content: center;
   
 }
-.hBizz{
+.h-buzz{
   text-align: center;
   font-weight: bolder;
   font-size: 30px;
 }
-.sBizz{
+.s-bizz{
   font: 25px Lucida handwriting ;
   padding-left: 30%;
   padding-top: 0px;
@@ -276,4 +277,26 @@ section {
  overflow-y:scroll;
  font-family: 25px Lucida handwriting ;
 
+}
+.button-buzz{
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  margin: 6px 2px;
+  cursor: pointer;
+  background-color: rgb(119, 129, 133 ,  0.7);
+}
+.ul-bizz {
+  list-style-type: none;
+}
+.li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
