@@ -3,27 +3,33 @@
 <head>
 <title>Chuchu Genife * WEB115 * BIZZ BUZZ</title>
 <link rel="stylesheet" href="styles.css">
+<script src="myscript.js"></script>
 </head>
 
 <body>
- <main>
+<main>
 <header>
 <h1>Chuchu Genife * WEB115 </h1>
 </header>
 <main>
-  <h2> Welcome to Bizz Buzz</h2>
+  <h2 class="hBizz" id="display"> Welcome to Sheeba Mineral Fizz Buzz</h2>
+<section class="sBizz">
+  <div class="table">
+    <form action="javascript:void(0);" method="post" onsubmit="changehead(); greeting()";  id="display">  
+      <label for="fName">First Name</label>   
+      <input type="fname" id="fName" name="fName" placeholder="First Name" required/> <br> <br>  
+      <label for="mName">Middle Initial</label> 
+      <input type="minitial" id="mName" name="mName" placeholder="MI" required maxlength="1">  <br> <br> 
+      <label for="lName">Last Name</label> 
+      <input type="lname" id="lName" name="lName" placeholder="Last Name" required>  <br> <br>  
+      <input type="submit" value="Submit"> 
+    </form>
+
+ <p id="count"></p> 
+</div> 
+</section>
+
 </main>
- <div class="table" width="100">
-  <form >  
-   <label>First Name: </label> <br>  
-   <input type="fname"> <br> <br>  
-   <label>Middle Initial:</label> <br>  
-   <input type="minitial">  <br> <br> 
-   <label>Last Name:</label> <br>  
-   <input type="lname">  <br> <br>  
-   <input type="submit" value="Submit">  
-  </form>  
- </div>
 <footer>
     <nav>  
        <a class="a-footer" href="https://github.com/gabi0521/cgenife01"> Github </a>

@@ -5,9 +5,9 @@ h1 {
    text-align: center;
    font-family: "Lucida handwriting", "Brush Script MT";
    font-weight: bold;
-   color: rgb(207, 206, 206);
-    
+   color: rgb(207, 206, 206);   
 }
+
 h2 {
    text-align: left;
    font-family: "Lucida handwriting", "Brush Script MT";
@@ -246,14 +246,34 @@ section {
 .table {
   display: flex;
   flex-wrap: wrap;
-  width: 200px;
+  width: 500px;
   height: auto;
-  padding: 50px 50px;
-  margin-left: 20px;
-  background-color: rgb(119, 129, 133 ,  0.7);
-  border: 1px outset #2a5465;
-  border-collapse: separate;
+  padding: 50px;
+  margin-top: -10px;
+  margin: 30px 30px;
+  background-color: rgba(38, 92, 93, 0.7);
+  border: 20px ridge rgba(38, 92, 93, 0.7);
+  align-content: center;
   
 }
- 
+.hBizz{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.sBizz{
+  font: 25px Lucida handwriting ;
+  padding-left: 30%;
+  padding-top: 0px;
+  padding-right: 30%;
+  align-content: center;
+  color: #EDC9AF;
+}
+#count {
+ display: none;
+ color: #EDC9AF;
+ max-height: 300px;
+ overflow-y:scroll;
+ font-family: 25px Lucida handwriting ;
 
+}
