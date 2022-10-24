@@ -260,7 +260,17 @@ section {
   overflow-y: auto;
   
 }
-.h-buzz {
+.hbizz {
+  text-align: center;
+  font-size: 40px;
+  padding: auto;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-top: 5px;
+  color:#283c4e;
+  font-weight: bold;
+}
+.hbuzz {
   text-align: center;
   font-weight: bold;
   padding: 5px 5px;
@@ -351,7 +361,6 @@ section {
   margin-top: 5px;
   color:#283c4e;
   font-weight: bold;
- 
   
 }
 .h2-fs {
@@ -361,10 +370,7 @@ section {
   color:#283c4e;
   font-weight: 30px;
 }
-hr {
-  background-color: #283c4e;
-  margin: 9;
-}
+
 .border-fs{
  width: 600px;
  border-radius: 5px;
@@ -387,7 +393,7 @@ input {
   background-color:rgb(253, 250, 244);
 }
 /*Fizz buzz 2*/
-.table3 {
+.tab2{
   display: flex;
   flex-wrap: wrap;
   width: 45%;
@@ -403,3 +409,48 @@ input {
   outline: 2px solid orange;
   overflow-y: scroll;
 }
+
+.h1-fs2 {
+  text-align: center;
+  font-size: 40px;
+  padding: auto;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-top: 5px;
+  color:#283c4e;
+  font-weight: bold;
+}
+.h2-fs2 {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 5px;
+  color:#283c4e;
+  font-weight: 30px;
+}
+.border-fs2{
+  width: 600px;
+  border-radius: 5px;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 40px;
+  background-color: rgb(238, 218, 153);
+}
+#mycounter {
+  display:list-item;
+  color: #283c4e;
+  max-height: 300px;
+  padding-right: 30%;
+  padding-left: 20%;
+  padding-top: 35px;
+  margin: auto;
+  margin-right: 20%;
+  font-family: 25px Lucida handwriting ;
+ }
+ #values {
+  display: inline-block;
+  color: #EDC9AF;
+  max-height: 300px;
+  font-family: 25px Lucida handwriting ;
+ }
