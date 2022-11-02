@@ -5,9 +5,8 @@ function changehead(){
     var mName = document.getElementById("mName").value;
     var lName = document.getElementById("lName").value;
     document.getElementById("display").innerHTML = "Welcome to Shebba Mineral Fizz Buzz," +fName+" "+mName+" "+lName;
-
+   
 let myPrints = "";	
-	
  for (var i = 1; i <= 140; i++) {
     myPrints += i.toString();
       if (i % 3 != 0 && i % 5 != 0) {

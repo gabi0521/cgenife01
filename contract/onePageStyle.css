@@ -1,0 +1,107 @@
+title {
+    display: none;
+ }
+ h1 {
+    display: block;
+    text-align: center;
+    font-family: "Lucida handwriting", "Brush Script MT";
+    font-weight: bold;
+    color: rgb(207, 206, 206);  
+    padding: 10px;
+    margin: 0;
+ }
+ 
+ h2 {
+    text-align: left;
+    font-family: "Lucida handwriting", "Brush Script MT";
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(207, 206, 206);  
+    padding-top: 300px;
+ }
+ h3 {
+    text-align: left;
+    font-family: "Lucida handwriting", "Brush Script MT";
+    font-size: 20px;
+    color: rgb(207, 206, 206);  
+    padding-top: 10px;
+    
+
+ }
+ .ul-row {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    background-color: black;
+ }
+ li {
+    float: left;
+  }
+ li a, .mydroptoc {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .sectiona{
+    background-image: url("rainLeaves.gif");
+    background-color: rgb(92, 92, 190);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 150px;
+    display: table;
+    margin:0 ;
+   
+  }
+ 
+ p {
+    font-size:25px;
+   font-family: "Lucida handwriting", "Brush Script MT";
+   text-align: left;
+   font-weight: bold;
+   color: black;
+  
+ }
+ 
+ 
+ .modal {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   height: auto;
+   padding: 10px 10px;
+   padding-top: 0;
+   margin-left: 20px;
+   background-color: rgb(119, 129, 133 ,  0.7);
+   border: 10px solid #2a5465;
+   border-radius: 5px;
+   border-spacing: 0px;
+   border-collapse: separate;
+ }
+
+ body {
+   background-size: cover;
+   
+ }
+
+ a {
+   color: black;
+    text-decoration:underline;
+ }
+ 
+ footer {
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    margin-left: -20px;
+    margin-right: -20px;
+    opacity: 0.9;
+    font-size: 25px;
+    text-align: center;
+ }
+ 
+ 
