@@ -280,7 +280,7 @@ section {
   font-weight: bold;
   padding: 5px 5px;
   color:#283c4e;
-  font-weight: 30px;
+  font-weight:bold;
 }
 .s-bizz {
   font: 25px Verdana, Geneva, Tahoma, sans-serif ;
@@ -295,7 +295,8 @@ section {
  color: #EDC9AF;
  max-height: 300px;
  margin: 30px;
- font-family: 25px Verdana, Geneva, Tahoma, sans-serif ;
+ font-size: 25px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif ;
  padding: 5px 10px;
  
 
@@ -338,7 +339,7 @@ section {
   padding-top: 35px;
   margin: auto;
   margin-right: 20%;
-  font-family: 25px Verdana, Geneva, Tahoma, sans-serif ;
+  font: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
  .table2 {
   display: flex;
