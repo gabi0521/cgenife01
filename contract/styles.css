@@ -23,7 +23,7 @@ ul.list {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
   font-weight: bold;
-  list-style-type: style;
+  list-style-type:circle;
 }
 
 li.list-l {
@@ -34,7 +34,7 @@ li.list-l {
   font-weight: bold;
   color: black;
   padding-top: 20px;
-  list-style-type: style;
+  list-style-type: circle;
 
  
 }
