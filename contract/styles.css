@@ -188,6 +188,7 @@ footer p {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  
 }
 
 .menu-indexl {
@@ -234,18 +235,7 @@ li.dropdowntoc {
 .dropdowntoc:hover .dropdowntoc-content {
   display: block;
 }
-.button-toc{
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-weight: bold;
-  margin: 6px 2px;
-  cursor: pointer;
-  background-color: rgb(119, 129, 133 ,  0.7);
-}
+
 section {
   font: 25px Arial, sans-serif;
   padding-left: 15%;
