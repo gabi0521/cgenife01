@@ -328,7 +328,7 @@ section {
   display: inline-block;
   color: #EDC9AF;
   max-height: 300px;
-  font-family: 25px Verdana, Geneva, Tahoma, sans-serif ;
+  font: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
  #myWord {
   display: none;
@@ -361,7 +361,6 @@ section {
 .h1-fs {
   text-align: center;
   font-size: 40px;
-  padding: auto;
   padding-bottom: 10px;
   padding-top: 0px;
   margin-top: 5px;
@@ -374,7 +373,7 @@ section {
   font-weight: bold;
   padding: 5px 5px;
   color:#283c4e;
-  font-weight: 30px;
+  font-weight:100;
 }
 
 .border-fs{
@@ -419,7 +418,6 @@ input {
 .h1-fs2 {
   text-align: center;
   font-size: 40px;
-  padding: auto;
   padding-bottom: 10px;
   padding-top: 0px;
   margin-top: 5px;
@@ -431,7 +429,7 @@ input {
   font-weight: bold;
   padding: 5px 5px;
   color:#283c4e;
-  font-weight: 30px;
+  font-weight: bold;
 }
 .border-fs2{
   width: 600px;
@@ -452,11 +450,11 @@ input {
   padding-top: 35px;
   margin: auto;
   margin-right: 20%;
-  font-family: 25px Verdana, Geneva, Tahoma, sans-serif ;
+  font: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
  #values {
   display: inline-block;
   color: #EDC9AF;
   max-height: 300px;
-  font-family: 25px Verdana, Geneva, Tahoma, sans-serif ;
+  font: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
