@@ -14,9 +14,15 @@ h2 {
    font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-weight: bold;
    color: rgb(207, 206, 206);  
-   padding-bottom: 40px;
-
 }
+.indexP {
+  text-align: left;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  
+}  
+
+
 
 ul.list {
   font-size:15px;
@@ -171,16 +177,16 @@ footer p {
 /* Tabel of Content */
  .h1-toc {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
  .h2-toc {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
   p.toc {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 .menu-indexu {
   list-style-type: none;
@@ -263,7 +269,6 @@ section {
 .hbizz {
   text-align: center;
   font-size: 40px;
-  padding: auto;
   padding-bottom: 10px;
   padding-top: 0px;
   margin-top: 5px;
@@ -278,7 +283,7 @@ section {
   font-weight: 30px;
 }
 .s-bizz {
-  font: 25px Lucida handwriting ;
+  font: 25px Verdana, Geneva, Tahoma, sans-serif ;
   padding-left: 30%;
   padding-top: 0px;
   padding-right: 30%;
@@ -290,7 +295,7 @@ section {
  color: #EDC9AF;
  max-height: 300px;
  margin: 30px;
- font-family: 25px Lucida handwriting ;
+ font-family: 25px Verdana, Geneva, Tahoma, sans-serif ;
  padding: 5px 10px;
  
 
@@ -322,7 +327,7 @@ section {
   display: inline-block;
   color: #EDC9AF;
   max-height: 300px;
-  font-family: 25px Lucida handwriting ;
+  font-family: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
  #myWord {
   display: none;
@@ -333,7 +338,7 @@ section {
   padding-top: 35px;
   margin: auto;
   margin-right: 20%;
-  font-family: 25px Lucida handwriting ;
+  font-family: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
  .table2 {
   display: flex;
@@ -446,11 +451,11 @@ input {
   padding-top: 35px;
   margin: auto;
   margin-right: 20%;
-  font-family: 25px Lucida handwriting ;
+  font-family: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
  #values {
   display: inline-block;
   color: #EDC9AF;
   max-height: 300px;
-  font-family: 25px Lucida handwriting ;
+  font-family: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
