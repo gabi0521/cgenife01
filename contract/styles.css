@@ -9,18 +9,33 @@ h1 {
 }
 
 h2 {
+  
    text-align: left;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-weight: bold;
    color: rgb(207, 206, 206);  
+   padding-bottom: 40px;
+
 }
 
-p {
-   font-size:25px;
+ul.list {
+  font-size:15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-weight: bold;
+  list-style-type: style;
+}
+
+li.list-l {
+  
+  font-size:15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
   font-weight: bold;
   color: black;
+  padding-top: 20px;
+  list-style-type: style;
+
  
 }
 
@@ -30,12 +45,13 @@ p {
   width: 100%;
   height: auto;
   padding: 5px;
-  padding-top: 0;
+  padding-top: 10px;
   background-color: rgb(119, 129, 133 ,  0.7);
   border: 1px solid #2a5465;
   border-radius: 5px;
   border-spacing: 0px;
   border-collapse: separate;
+  margin-top: 50px;
 }
 body {
   background-image: url("deepinwater.gif");
@@ -86,6 +102,7 @@ div.intro {
   font-size: 15px;
   font-family: Geneva, Tahoma, sans-serif;
   color: black;
+  padding: 5px;
 }
 p.footer{
    text-align: center;
@@ -165,7 +182,7 @@ footer p {
     text-align: center;
     font-family: 'Courier New', Courier, monospace; 
 }
-ul {
+.menu-indexu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -173,7 +190,7 @@ ul {
   background-color: #333;
 }
 
-li {
+.menu-indexl {
   float: left;
 }
 
