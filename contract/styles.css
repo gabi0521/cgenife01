@@ -141,7 +141,7 @@ p.footer{
  }
  .imageT{
    align-content: center;
-   padding:0px 400px;
+   padding:0px 400px 200px 500px;
   
  }
  .firstT{
@@ -150,7 +150,7 @@ p.footer{
  .secondT{
   font-size: 30px;
   color: #f9f9f9;
-  background-color: #1c2494;
+  
  }
  
  .button-temp {
