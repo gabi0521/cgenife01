@@ -130,9 +130,29 @@ p.footer{
  }
  h2.temp-h2 {
     text-align: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
  }
+ p.temp {
+   display: inline-flex;
+   font-size: 100px;
+   font-weight: bold;
+   padding: 200px 200px 0px 100px;
+  
+ }
+ .imageT{
+   align-content: center;
+   padding:0px 400px;
+  
+ }
+ .firstT{
+  font-size: 20px;
+ }
+ .secondT{
+  font-size: 30px;
+  color: #f9f9f9;
+  background-color: #1c2494;
+ }
+ 
  .button-temp {
     border: none;
     color: black;
