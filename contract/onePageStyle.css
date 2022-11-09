@@ -11,7 +11,7 @@ title {
     margin-left: 200px;
     border-right: 10px;
     border-left: 100px;
-    border: 10px solid rgb(55, 136, 55);
+    border: 10px solid goldenrod;
  }
  
  h2 {
@@ -30,6 +30,7 @@ title {
     padding-top: 10px;
     
  }
+ 
  body{
    background-color: rgb(218, 246, 219);
  }
