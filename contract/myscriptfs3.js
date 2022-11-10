@@ -8,50 +8,75 @@ function changehead(){
 
     
    /* let numLists = 140;*/
-
+    
+    var ptag = document.getElementById("nums");
     let valueNum = "";	
  for (var i = 1; i <= 140; i++) {
-    valueNum += i.toString();
+    
+    var listparagraph = document.createElement('p');
+    
       if (i % 3 === 0 && i % 5 === 0 && i % 7 === 0) {
-        valueNum += ". " + " HydrateDropWater";
+        
+        valueNum = i.toString() + ". " + " HydrateDropWater";
+        listparagraph.innerText = valueNum;
+        listparagraph.style.color ="white";
+        ptag.appendChild(listparagraph);
         }
-     else 
-        if (i % 3 === 0 && i % 5 === 0) {
-            valueNum += ". " + " HydrateDrop";
+     else if (i % 3 === 0 && i % 5 === 0) {
+            
+            valueNum = i.toString() + ". " + " HydrateDrop";
+            listparagraph.innerText = valueNum;
+            listparagraph.style.color ="white";
+            ptag.appendChild(listparagraph);
         }
-     else 
-        if (i % 3 === 0 && i % 7 === 0) {
-            valueNum += ". " + " HydrateWater";
+     else if (i % 3 === 0 && i % 7 === 0) {
+
+            valueNum = i.toString() + ". " + " HydrateWater";
+            listparagraph.innerText = valueNum;
+            listparagraph.style.color ="white";
+            ptag.appendChild(listparagraph);
         }
-    else 
-        if (i % 5 === 0 && i % 7 === 0) {
-            valueNum += ". " + " DropWater";
+    else if (i % 5 === 0 && i % 7 === 0) {
+           
+            valueNum = i.toString() + ". " + " DropWater";
+            listparagraph.innerText = valueNum;
+            listparagraph.style.color ="white";
+            ptag.appendChild(listparagraph);
         }
-    else 
-        if (i % 3 === 0 ) {
-            valueNum += ". " + " Hydrate";
+    else if (i % 3 === 0 ) {
+            
+            valueNum = i.toString() + ". " + "  Hydrate";
+            listparagraph.innerText = valueNum;
+            listparagraph.style.color ="white";
+            ptag.appendChild(listparagraph);
         }
-    else 
-        if (i % 5 === 0 ) {
-            valueNum += ". " + " Drop";
-         }
-    else 
-       if (i % 7 === 0) {
-        valueNum+= ". "+ " Water"; 
+    else if (i % 5 === 0 ) {
+            
+            valueNum = i.toString() + ". " + " Drop";
+            listparagraph.innerText = valueNum;
+            listparagraph.style.color ="white";
+            ptag.appendChild(listparagraph);
+        }
+    else if (i % 7 === 0) {
+        
+        valueNum = i.toString() + ". " + " Water";
+        listparagraph.innerText = valueNum;
+        listparagraph.style.color ="white";
+        ptag.appendChild(listparagraph);
+        
         }
     else {
-        valueNum +=  ". "+ "Drip ";
+       
+        valueNum = i.toString() + ". " + " Drip";
+        listparagraph.innerText = valueNum;
         
-              
+        ptag.appendChild(listparagraph); 
          
     }
 
-    
-    valueNum += "<br>";
  
 }    
-     document.getElementById("nums").innerHTML = valueNum;
-     document.getElementById("nums").style.display = "block";
+    
 }       
 
 
