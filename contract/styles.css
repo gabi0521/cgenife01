@@ -540,3 +540,64 @@ input {
   max-height: 300px;
   font: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
+/*Fizz Buzz 4*/
+.tab4 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 45%;
+  height: auto;
+  padding: 100px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 10px;
+  align-content: center;
+  background-color: rgba(162, 136, 84, 0.447);
+  color:#283c4e;
+  font-size: 20px;
+  outline: 2px solid orange;
+  overflow-y: scroll;
+}
+
+.h1-fs4 {
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+  padding-top: 0px;
+  margin-top: 5px;
+  color:#283c4e;
+  font-weight: bold;
+}
+.h2-fs4{
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 5px;
+  color:#283c4e;
+  font-weight: bold;
+}
+.border-fs4{
+  width: 600px;
+  border-radius: 5px;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 40px;
+  background-color: rgb(238, 218, 153);
+}
+#divNums {
+  display:list-item;
+  color: #ccd6de;
+  max-height: 300px;
+  padding-right: 100px;
+  padding-left: 80px;
+  padding-top: 35px;
+  margin: auto;
+  margin-right: 20%;
+  font: 25px Verdana, Geneva, Tahoma, sans-serif ;
+ }
+ #values {
+  display: inline-block;
+  color: #EDC9AF;
+  max-height: 300px;
+  font: 25px Verdana, Geneva, Tahoma, sans-serif ;
+ }
