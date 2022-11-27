@@ -2,13 +2,13 @@ title {
     display: none;
  }
  h1 {
-    display: inline-block;
+    display:inline-table;
     text-align: center;
     font-family:"Lucida handwriting", "Brush Script MT";
     font-size: 90px;
     color: rgb(207, 206, 206);  
     padding: 5px;
-    margin-left: 200px;
+    margin-left: 300px;
     border-right: 10px;
     border-left: 100px;
     border: 10px solid goldenrod;
@@ -30,10 +30,14 @@ title {
     padding-top: 10px;
     
  }
- 
  body{
-   background-color: rgb(218, 246, 219);
+   background-image:url("insidesea.jfif");
  }
+ 
+ .border{
+   box-sizing: border-box;
+ }
+
  .ul-row {
     list-style-type: none;
     margin: 0;
@@ -42,31 +46,75 @@ title {
     padding-right: 0px;
     overflow: hidden;
     display: block;
-    background-color: black;
+    background-color: rgb(240, 244, 247);
  }
  li {
     float: left;
   }
- li a, .mydroptoc {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .sectiona{
-    background-image: url("rainLeaves.gif");
-    align-items: center;
-    background-color: rgb(92, 92, 190);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    padding: 50px;
-    margin:10 ;
+  li a, .mydroptoc {
+   display: inline-block;
+   color: rgb(55, 103, 164);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-weight: bold;
+   font-size: large;
+ }
+ li a:hover {
+   background: rgb(97, 155, 191);
+   color: black;
+ }
+#page1-cover{
+ background-color: white 0.5;
+ background-size: cover;
+ background-position: top center;
+ padding-bottom: 100px;
+ position: relative;
+ z-index: 1;    
+}
+#page1::after {
+ content: "";
+ position: absolute;
+ left: 0;
+ top: 0;
+ height: 100%;
+ width: 100%;
+}
+.container{
+   min-height:60vh;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   }
+.page1-head1{
+   display: block;
+   width:fit-content;
+   font-size: 80px;
+   margin-left: 80px;
+   margin-right: 150px;
+   position: relative;
+   color: rgb(15, 25, 56);
+   margin-top: 10px;
+   border: 10px solid rgb(39, 52, 71);
+   animation: text 4s 1;
+}
+@keyframes text{
+   0%{
+       color: black;
+       margin-bottom: -40px;
+   }
+   30%{
+       letter-spacing: 25px;
+       margin-bottom: -40px;
+       }
+   85%{
+       letter-spacing: 8px;
+       margin-bottom: -40px;
+   }
+}
 
-   
-  }
- 
+
  p {
     font-size:25px;
    font-family: "Lucida handwriting", "Brush Script MT";
@@ -76,7 +124,22 @@ title {
   
  }
   
- 
+ #page2{
+   background-color: linear-gradient( rgb(92, 92, 190), rgb(146, 146, 255));
+   padding-bottom: 100px;
+   font-weight: bold;
+     
+ }
+ .page2h2{
+   color:#2a5465;
+   font-size: 40px;
+ }
+ .page2h3{
+   color: #2a5465;
+ }
+ .page2h4{
+   color: #2a5465;
+ }
  .modal {
    display: flex;
    flex-wrap: wrap;
@@ -91,19 +154,54 @@ title {
    border-spacing: 0px;
    border-collapse: separate;
  }
+ 
 
- body {
-   background-size: cover;
+.middle-column1 {
+   float:left;
+   background-image: url("SHEBBAWATER.png");
+   width: 300px;
+   margin: 0 auto;
+   height: 200px;
    
- }
+}
+.middle-column2 {
+   float:left;
+   background-image: url("SHEBBAWATER.png");
+   width: 300px;
+   height: 200px;
+}
+.middle-column3 {
+ float:left;
+ background-image: url("SHEBBAWATER.png");
+ width: 300px;
+ height: 200px;
+ border-color: blue;
+}
+ body {
+   background-color: linear-gradient( rgb(92, 92, 190), rgb(146, 146, 255));
+   overflow-y: scroll;
+   background-size: cover;
+}
+.column {
+   float: left;
+   width: 10%;
+   padding: 10px;
 
- a {
+ }
+ 
+ .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ 
+a {
    color: black;
     text-decoration:underline;
  }
  
- footer {
-    padding: 10px 10px 0px 10px;
+ .footerone {
+    padding: 1200px 10px 0px 10px;
     bottom: 0;
     width: 100%;
     margin-left: -20px;
