@@ -3,7 +3,7 @@ title {
 }
 h1 {
    text-align: center;
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-weight: bold;
    color: rgb(207, 206, 206);   
 }
@@ -152,6 +152,7 @@ p.footer{
   color: #f9f9f9;
   
  }
+ 
  
  .button-temp {
     border: none;
