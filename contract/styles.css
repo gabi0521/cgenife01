@@ -640,7 +640,7 @@ h2.form{
   padding: 25px;
 }
 .nameIntro{
-  font-size: Bold;
+  font-weight: Bold;
   color: #152922;
   background-color: #EDC9AF;
 }
