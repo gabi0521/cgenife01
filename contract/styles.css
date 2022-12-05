@@ -615,7 +615,9 @@ h2.form{
 }
 .formAnswer{
  font-weight: bold;
- color: white;
+ color:#283c4e;
+ font-family: cursive;
+ 
 }
 .submit{
   background-color: #4CAF50;
@@ -629,8 +631,18 @@ h2.form{
   margin: 4px 2px;
   cursor: pointer;
 }
-.formT{
-
+.board{
+  
+  width: 600px;
+  border: 4px dashed transparent;
+  border-image: linear-gradient(to right, orange, rgba(114, 83, 14, 0.845));
+  border-image-slice: 1;
+  padding: 25px;
+}
+.nameIntro{
+  font-size: Bold;
+  color: #152922;
+  background-color: #EDC9AF;
 }
 
 
