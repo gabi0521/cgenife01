@@ -21,3 +21,5 @@
     var lName = document.getElementById("lName").value;
     document.getElementById("display").innerHTML = "Welcome to Shebba Mineral Fizz Buzz," +fName+" "+mName+" "+lName;
   }
+
+  
