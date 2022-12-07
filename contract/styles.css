@@ -59,6 +59,8 @@ li.list-l {
 body {
   background-image: url("deepinwater.gif");
   background-size: cover;
+  margin-left: 100px;
+  margin-right: 100px;
   
 }
 a {
