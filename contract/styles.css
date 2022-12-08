@@ -13,7 +13,7 @@ h2 {
    text-align: left;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
    font-weight: bold;
-   color: rgb(207, 206, 206);  
+   color: black;  
 }
 .indexP {
   text-align: left;
@@ -55,6 +55,8 @@ li.list-l {
   border-spacing: 0px;
   border-collapse: separate;
   margin-top: 50px;
+  
+  
 }
 body {
   background-image: url("deepinwater.gif");
@@ -62,22 +64,51 @@ body {
   margin-left: 100px;
   margin-right: 100px;
   
+  
 }
 a {
-  color: black;
+  color: white;
    text-decoration: none ;
+   
+}
+a.footer{
+  color: white;
+  text-decoration: none ;
+  background-color: black;
+}
+div.footer{
+  color: white;
+  text-decoration: none ;
+  background-color: black;
+  margin-left: 500px;
+  margin-right: 500px;
 }
 
 footer {
-   padding: 10px 10px 0px 10px;
+   
    bottom: 0;
    width: 100%;
-   margin-left: -20px;
-   margin-right: -20px;
    opacity: 0.9;
    font-size: 25px;
    text-align: center;
 }
+
+#logo {
+  display: inline-block;
+  margin: 15px; 
+  height: 120px;
+  width: auto; 
+  border-radius: 50%; 
+}
+#logo-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+ 
+  }
+a:hover#logo-icon {
+  border-radius: 4px 4px 0 0;
+  }
 
 
 /* this is introduction*/
@@ -122,7 +153,7 @@ p.footer{
    text-align: left;
    margin: 0;
    font-size: 20px;
-    list-style-type: none;
+   list-style-type: none;
 }
  
  h1.temp-header {
@@ -214,20 +245,22 @@ footer p {
 }
 .menu-indexu {
   list-style-type: none;
-  margin: 0;
+ 
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  
-}
+  width: auto;
+  background-color: #152922;
+ }
 
 .menu-indexl {
   float: left;
+  font-size: 25px;
+  color:white;
 }
 
 li a, .mydroptoc {
   display: inline-block;
-  color: white;
+  color:white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -276,18 +309,16 @@ section {
 .table {
   display: flex;
   flex-wrap: wrap;
-  width: 45%;
   height: auto;
   padding: 100px;
-  margin-right: 20%;
-  margin-left: 20%;
-  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
   align-content: center;
-  background-color: rgb(119, 129, 133 ,  0.7);
-  color:#283c4e;
+  background-color: rgba(162, 136, 84, 0.447);
+  color:black;
   font-size: 20px;
-  outline: 2px solid orange;
-  overflow-y: auto;
+  outline: 2px solid rgb(29, 22, 9);
+  overflow-y: scroll;
   
 }
 .hbizz {
@@ -296,15 +327,15 @@ section {
   padding-bottom: 10px;
   padding-top: 0px;
   margin-top: 5px;
-  color:#283c4e;
+  color: white;
   font-weight: bold;
 }
 .hbuzz {
   text-align: center;
   font-weight: bold;
   padding: 5px 5px;
-  color:#283c4e;
-  font-weight:bold;
+  color:black;
+  font-weight:100;
 }
 .s-bizz {
   font: 25px Verdana, Geneva, Tahoma, sans-serif ;
@@ -313,6 +344,7 @@ section {
   padding-right: 30%;
   align-content: center;
   color: #EDC9AF;
+ 
 }
 #count {
  display: none;
@@ -356,7 +388,7 @@ section {
  }
  #myWord {
   display: none;
-  color: #283c4e;
+  color:black;
   max-height: 300px;
   padding-right: 30%;
   padding-left: 20%;
@@ -365,30 +397,14 @@ section {
   margin-right: 20%;
   font: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
- .table2 {
-  display: flex;
-  flex-wrap: wrap;
-  width: 45%;
-  height: auto;
-  padding: 100px;
-  margin-right: 20%;
-  margin-left: 20%;
-  margin-top: 10px;
-  align-content: center;
-  background-color: rgb(119, 129, 133 ,  0.7);
-  color:#283c4e;
-  font-size: 20px;
-  outline: 2px solid orange;
-  overflow-y: auto;
  
-}
 .h1-fs {
   text-align: center;
   font-size: 40px;
   padding-bottom: 10px;
   padding-top: 0px;
   margin-top: 5px;
-  color:#283c4e;
+  color:white;
   font-weight: bold;
   
 }
@@ -396,7 +412,7 @@ section {
   text-align: center;
   font-weight: bold;
   padding: 5px 5px;
-  color:#283c4e;
+  color:black;
   font-weight:100;
 }
 
@@ -425,17 +441,16 @@ input {
 .tab2{
   display: flex;
   flex-wrap: wrap;
-  width: 45%;
   height: auto;
   padding: 100px;
-  margin-right: 20%;
-  margin-left: 20%;
-  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
   align-content: center;
-  background-color: rgb(119, 129, 133 ,  0.7);
-  color:#283c4e;
+  background-color: rgba(162, 136, 84, 0.447);
+  color:black;
   font-size: 20px;
-  outline: 2px solid orange;
+  font-weight: bold;
+  outline: 2px solid rgb(29, 22, 9);
   overflow-y: scroll;
 }
 
@@ -445,14 +460,14 @@ input {
   padding-bottom: 10px;
   padding-top: 0px;
   margin-top: 5px;
-  color:#283c4e;
+  color:white;
   font-weight: bold;
 }
 .h2-fs2 {
   text-align: center;
   font-weight: bold;
   padding: 5px 5px;
-  color:#283c4e;
+  color: black;
   font-weight: bold;
 }
 .border-fs2{
@@ -486,17 +501,16 @@ input {
 .tab3{
   display: flex;
   flex-wrap: wrap;
-  width: 45%;
   height: auto;
   padding: 100px;
-  margin-right: 20%;
-  margin-left: 20%;
-  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
   align-content: center;
   background-color: rgba(162, 136, 84, 0.447);
-  color:#283c4e;
+  color:black;
   font-size: 20px;
-  outline: 2px solid orange;
+  font-weight: bold;
+  outline: 2px solid rgb(29, 22, 9);
   overflow-y: scroll;
 }
 
@@ -506,14 +520,14 @@ input {
   padding-bottom: 10px;
   padding-top: 0px;
   margin-top: 5px;
-  color:#283c4e;
+  color: white;
   font-weight: bold;
 }
 .h2-fs3{
   text-align: center;
   font-weight: bold;
   padding: 5px 5px;
-  color:#283c4e;
+  color:black;
   font-weight: bold;
 }
 .border-fs3{
@@ -528,7 +542,7 @@ input {
 }
 #nums {
   display:list-item;
-  color: #283c4e;
+  color: black;
   max-height: 300px;
   padding-right: 100px;
   padding-left: 80px;
@@ -547,17 +561,16 @@ input {
 .tab4 {
   display: flex;
   flex-wrap: wrap;
-  width: 45%;
   height: auto;
   padding: 100px;
-  margin-right: 20%;
-  margin-left: 20%;
-  margin-top: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
   align-content: center;
   background-color: rgba(162, 136, 84, 0.447);
-  color:#283c4e;
+  color: black;
+  font-weight: bold;
   font-size: 20px;
-  outline: 2px solid orange;
+  outline: 2px solid rgb(29, 22, 9);
   overflow-y: scroll;
 }
 
@@ -567,14 +580,14 @@ input {
   padding-bottom: 10px;
   padding-top: 0px;
   margin-top: 5px;
-  color:#283c4e;
+  color: white;
   font-weight: bold;
 }
 .h2-fs4{
   text-align: center;
   font-weight: bold;
   padding: 5px 5px;
-  color:#283c4e;
+  color:black;
   font-weight: bold;
 }
 .border-fs4{
@@ -589,7 +602,7 @@ input {
 }
 #divNums {
   display:list-item;
-  color: #ccd6de;
+  color:black;
   max-height: 300px;
   padding-right: 100px;
   padding-left: 80px;
@@ -600,7 +613,7 @@ input {
  }
  #values {
   display: inline-block;
-  color: #EDC9AF;
+  color: black;
   max-height: 300px;
   font: 25px Verdana, Geneva, Tahoma, sans-serif ;
  }
@@ -617,7 +630,7 @@ h2.form{
 }
 .formAnswer{
  font-weight: bold;
- color:#283c4e;
+ color:black;
  font-family: cursive;
  
 }
