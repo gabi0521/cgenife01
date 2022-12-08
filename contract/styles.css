@@ -245,8 +245,6 @@ footer p {
 }
 .menu-indexu {
   list-style-type: none;
- 
-  padding: 0;
   overflow: hidden;
   width: auto;
   background-color: #152922;
@@ -311,8 +309,6 @@ section {
   flex-wrap: wrap;
   height: auto;
   padding: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
   align-content: center;
   background-color: rgba(162, 136, 84, 0.447);
   color:black;
@@ -443,8 +439,6 @@ input {
   flex-wrap: wrap;
   height: auto;
   padding: 100px;
-  margin-right: 100px;
-  margin-left: 100px;
   align-content: center;
   background-color: rgba(162, 136, 84, 0.447);
   color:black;
@@ -503,8 +497,6 @@ input {
   flex-wrap: wrap;
   height: auto;
   padding: 100px;
-  margin-right: 100px;
-  margin-left: 100px;
   align-content: center;
   background-color: rgba(162, 136, 84, 0.447);
   color:black;
@@ -563,8 +555,6 @@ input {
   flex-wrap: wrap;
   height: auto;
   padding: 100px;
-  margin-right: 100px;
-  margin-left: 100px;
   align-content: center;
   background-color: rgba(162, 136, 84, 0.447);
   color: black;
