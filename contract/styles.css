@@ -59,7 +59,7 @@ li.list-l {
   
 }
 body {
-  background-image: url("deepinwater.gif");
+  background-image: url("redsea2.jpg");
   background-size: cover;
   margin-left: 100px;
   margin-right: 100px;
@@ -101,7 +101,6 @@ footer {
   border-radius: 50%; 
 }
 #logo-icon {
-  display: hidden;
   width: 40px;
   height: 40px;
  
@@ -114,23 +113,17 @@ a:hover#logo-icon {
 /* this is introduction*/
 
 .figure-intro {
+  float: left;
   display: block;
-  padding: 0px 100px 10px 200px;
-  padding-left: 25%;
+  
   align-items : center;
 }
 .figure-cap {
  
   color: black;
-  font-style: italic;
+  font-style: Verdana, Geneva, Tahoma, sans-serif;
   text-align: left;
   
-}
-div.intro {
-  background-color:#EDC9AF; 
-  border: 15px solid beige;
-  padding: 50px;
-  text-align: left;
 }
 
 .introduction {
@@ -298,7 +291,7 @@ li.dropdowntoc {
 }
 
 section {
-  font: 25px Arial, sans-serif;
+  font: 25px Verdana, Geneva, Tahoma, sans-serif;
   padding-left: 15%;
   padding-top: 30px;
   padding-right: 20%;
@@ -621,7 +614,7 @@ h2.form{
 .formAnswer{
  font-weight: bold;
  color:black;
- font-family: cursive;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
  
 }
 .submit{
@@ -640,7 +633,7 @@ h2.form{
   
   width: 600px;
   border: 4px dashed transparent;
-  border-image: linear-gradient(to right, orange, rgba(114, 83, 14, 0.845));
+  border-image: linear-gradient(to right, orange, rgba(72, 54, 14, 0.905));
   border-image-slice: 1;
   padding: 25px;
 }
