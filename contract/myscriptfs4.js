@@ -1,53 +1,58 @@
-function greeting() {   
-    var fName = document.getElementById("fName").value;
-    var mName = document.getElementById("mName").value;
-    var lName = document.getElementById("lName").value;
-    alert("Hello! " + fName + " " +  mName + ". " + lName + ".");
-    var firstDigit= parseInt(prompt("Please enter the first number? "));
-    var secondDigit = parseInt(prompt("Please enter the second number? "));
-    var thirdDigit = parseInt(prompt("Please enter the third number? "));
-    var values = "";
-    var numList = 125;
+function greeting() {  
+    var values = ""; 
+    //var fName = document.getElementById("fName").value;
+    //var mName = document.getElementById("mName").value;
+    //var lName = document.getElementById("lName").value;
+   // document.getElementById("display").innerHTML = fName +" "+ mName+" "+lName + " Welcome to Sheeba Mineral Fizz Buzz 4";
+    var firstDigit = document.getElementById("qNum1").value;
+    var secondDigit = document.getElementById("qNum2").value;
+    var thirdDigit = document.getElementById("qNum3").value;
+
+    var firstDigitValue = document.getElementById("qName1").value;
+    var secondDigitValue = document.getElementById("qName2").value;
+    var thirdDigitValue = document.getElementById("qName3").value;
+
+    var numList = document.getElementById("nums").value;
+    var defaults = document.getElementById("default").value;
     for (var i = 1; i <= numList; i++) { 
         /*values += i.toString();*/
         if (i % firstDigit === 0 && i % secondDigit === 0 && i % thirdDigit === 0) 
         {
-            values += i +". " + " HydrateDropWater";
+            values += i +". " + " " + firstDigitValue + " " + secondDigitValue + " " + thirdDigitValue + "<br>";
            
         }    
         else if (i % firstDigit === 0 && i % secondDigit === 0) 
-        {
-            values += i +". "+ " HydrateDrop<br>";
+        {            values += i +". "  + firstDigitValue + " " + secondDigitValue +  "<br>";
             
         }
         else if (i % firstDigit === 0 && i % thirdDigit === 0) 
         {
-            values += i +". "+ " HydrateWater<br>";
+            values += i +". " + firstDigitValue + " " + thirdDigitValue + "<br>";
             
         }
         else if (i % secondDigit === 0 && i % thirdDigit === 0) 
         {
-            values += i +". "+ " DropWater<br>";
+            values += i +". " + secondDigitValue + " " + thirdDigitValue + "<br>";
             
         }
         else if (i % firstDigit === 0 ) 
         {
-            values += i +". "+ " Hydrate<br>";
+            values += i +". "+ firstDigitValue+ "<br>";
            
         }
         else if (i % secondDigit === 0 ) 
         {
-            values += i +". "+ " Drop<br>";
+            values += i +". "+ secondDigitValue + "<br>";
            
         }
         else if (i % thirdDigit === 0) 
         {
-            values += i +". "+ " Water<br>";
+            values += i +". "+  thirdDigitValue +"<br>";
            
         }
         else 
         {
-            values += i +". "+ "<br>";
+            values += i +". "+ defaults + "<br>";
            
         }  
         
@@ -59,9 +64,9 @@ function greeting() {
 }            
 
 
-    function shifthead() {
-        var fName = document.getElementById("fName").value;
-        var mName = document.getElementById("mName").value;
-        var lName = document.getElementById("lName").value;
-        document.getElementById("display").innerHTML = "Welcome to Shebba Mineral Fizz Buzz," +fName+" "+mName+" "+lName;
-    }
+function shifthead() {
+    var fName = document.getElementById("fName").value;
+    var mName = document.getElementById("mName").value;
+    var lName = document.getElementById("lName").value;
+    document.getElementById("display").innerHTML = "Welcome to Shebba Mineral Fizz Buzz," +fName+" "+mName+" "+lName;
+}
