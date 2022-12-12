@@ -6,6 +6,7 @@ function displayEntry(){
     var Question1 = document.getElementById("qNum1").value;
     var Question2 = document.getElementById("qNum2").value;
     var Question3 = document.getElementById("qNum3").value;
+    
     var Question4 = document.getElementById("qNum4").value;
     var Question5 = document.getElementById("qNum5").value;
     var Question6 = document.getElementById("qNum6").value;
