@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Chuchu Genife * WEB115 * SWTL 21-30</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+ <main>
+<header>
+<h1 class="h1-toc">Chuchu Genife * WEB115 </h1>
+</header>
+<main>
+  <h2 class="h2-toc"> Smart Way to Learn JS-Chapter 21 - 30</h2>
+</main>
+<p>Thank you for taking your time to order</p>
+
+<script>
+
+    alert("Welcome!");
+    var order = parseInt(prompt(" Please select a bottel size? 330 ML, 500 ML,700 ML"));
+    var caseOrder= parseInt(prompt("Please enter how many case would you like to order? 1 to 3 cases"));
+    var userIna = "330";
+    var userInb = "500";
+    var userInc = "700";
+    displayPrice="";
+   
+    for (var i = 1; i >= 3; i++) {
+        if (order == userIna && caseOrder == 1) {
+           var displayPrice = userIna * 20  * 1
+           console.log("You price will be  " + displayPrice);
+           
+        }
+        else if (order == userIna && caseOrder == 2) {
+            var displayPrice = userIna * 20  * 2;
+        }
+        else if (order == userIna && caseOrder == 3) {
+            var displayPrice = userIna * 20 * 3;
+        }
+        else if (order == userInb && caseOrder == 1) {
+            var displayPrice = userInb * 15  * 1;
+       }
+        else if (order == userInb && caseOrder == 2) {
+            var displayPrice = userInb * 15  * 2;
+        }
+        else if (order == userInb && caseOrder == 3) {
+            var displayPrice = userInb * 15  * 3;
+        }
+        else if (order == userInc && caseOrder == 1) {
+            var displayPrice = userInc * 10 * 1;
+        }
+        else if (order == userInc && caseOrder == 2) {
+            var displayPrice = userInc * 10  * 2;
+        }
+         else if (order == userInc && caseOrder == 3) {
+            var displayPrice = userInc * 10  * 3;
+       }
+        else {
+            console.log("please try again ?")
+        }
+   }
+  </script>
+<footer>
+    <nav>  
+       <a class="a-footer" href="https://github.com/gabi0521/cgenife01"> Github </a>
+       &nbsp;
+       <a class="a-footer" href="https://www.codecademy.com/profiles/Chuchu2I"> Codecadamy </a>
+       &nbsp;
+       <a class="a-footer" href="https://www.freecodecamp.org/chuchuG"> Freecodecamp </a>
+       &nbsp;
+       <a class="a-footer" href="https://jsfiddle.net/user/ChuchuG/fiddles/"> Jsfiddle </a>
+       &nbsp;
+       <a class="a-footer" href="https://www.linkedin.com/feed/"> Linkedin </a>
+       &nbsp;
+       <div class="p.footer"><em>Page built by ShebbaMineral</em></div>
+       <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgabi0521.github.io%2Fcgenife01%2Fcontract%2Ftoc.html"><img src="html_validate_button.png" alt="HTML" style="border:0;width:88px;height:31px">                                                                                                              
+           </a>        
+      <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgabi0521.github.io%2Fcgenife01%2Fcontract%2Fmybrand&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src="css_validate_button.gif" alt="CSS" style="border:0;width:88px;height:31px" >
+      </a>
+    </nav>
+  </footer>
+   </main> 
+  </body>
+   </html>
